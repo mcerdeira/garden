@@ -17,9 +17,10 @@ Cuando vas jugando, morís y repetís en el nivel donde moriste va a aparecer ra
 - Orbital cortadora, multiplicable hasta x2
 - Orbital que dispara, multiplicable hasta x2
 - Brazo arrancador, multiplicable hasta x2
-- Brazo disparador, multiplicable hasta x2
+- Brazo disparador random, multiplicable hasta x2
+- Brazo disparador teleridigido, multiplicable hasta x2
 - Atractor de rayos, multiplicable hasta x4
-- Charco de herbicida
+- Nube venenosa
 - TBD
 
 
