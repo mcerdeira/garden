@@ -8,6 +8,7 @@ Al matarlos vas recolectando XP que al acumularse se puede intercambiar (mutar) 
 ## Mecánicas
 El juego es un rogue-like, se recorre un mapa hasta limpiar todas las habitaciones (o la ruta critica a la salida) donde finalmente, luego de derrotar un boss se pasa al siguiente nivel. Al entrar a una room que no ha sido visitada previamente, spawnean enemigos u oleadas de enemigos y no es posible salir de la room hasta haberlos derrotados a todos. Luego esa room queda marcada como visitada y ya es un lugar libre de enemigos.
 El progreso se maneja mediante un sistema de XP y desbloqueo/mejora de armas similar a vampire survivors o gun-locked.
+Cuando vas jugando, morís y repetís en el nivel donde moriste va a aparecer random un totem/altar con los stats de alguno de los personajes de tus anteriores runs, pudiendo elegir fusionarte con este personaje combinando tus stats con los de él.
 
 ## Mutaciones (armas)
 
@@ -19,6 +20,8 @@ El progreso se maneja mediante un sistema de XP y desbloqueo/mejora de armas sim
 - Brazo disparador, multiplicable hasta x2
 - Atractor de rayos, multiplicable hasta x4
 - Charco de herbicida
+- TBD
+
 
 Todas las armas pueden ser mejoradas. Algunas pueden multiplicarse, es decir, existir más de una instancia de la misma arma. 
 Todas pueden mejorar el daño y bajar el cooldown.
@@ -30,6 +33,7 @@ Todas pueden mejorar el daño y bajar el cooldown.
 - Velocidad (PAS)
 - Daño (PAS)
 - Mapa detallado (PAS)
+- TBD
 
 ## Tipos de rooms
 
