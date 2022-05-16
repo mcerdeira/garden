@@ -33,11 +33,11 @@ Todas pueden mejorar el daño y bajar el cooldown.
 
 ## Tipos de rooms
 
-- Boss room (room con el boss y salida del nivel)
+- Boss room (el boss y salida del nivel)
 - Enemigos (1 wave)
 - Enemigos (n waves)
-- Chest room (tiene un chest con algún tipo de recompensa, como XP por ejemplo)
-- Trap room (es una room que tiene algún tipo de elemento, trampas en el suelo, sierras voladoras, etc) que no podremos matar y que tenemos que intentar sobrevivir hasta que termine.
+- Chest room (tiene algún tipo de recompensa, como XP por ejemplo)
+- Trap room (tiene algún tipo de elemento, trampas en el suelo, sierras voladoras, etc) que no podremos matar y que tenemos que intentar sobrevivir hasta que termine.
 
 
 
