@@ -4,7 +4,10 @@
 
 Sos un personaje que está en un jardín/laberinto donde tenes que ir matando alimañas, desde plantas venenosas o carnivoras hasta bichos y otros enemigos.
 Al matarlos vas recolectando XP que al acumularse se puede intercambiar por armamento y habilidades que permiten hacer mas facil la tarea.
-El juego es un rogue-like y tiene un sistema de XP y armas similar a vampire survivors o gun-locked.
+
+## Mecánicas
+El juego es un rogue-like, se recorre un mapa hasta limpiar todas las habitaciones (o la ruta critica a la salida) donde finalmente, luego de derrotar un boss se pasa al siguiente nivel. Al entrar a una room que no ha sido visitada previamente, spawnean enemigos u oleadas de enemigos y no es posible salir de la room hasta haberlos derrotados a todos. Luego esa room queda marcada como visitada y ya es un lugar libre de enemigos.
+El progreso se maneja mediante un sistema de XP y desbloqueo/mejora de armas similar a vampire survivors o gun-locked.
 
 ## Armas
 
@@ -26,3 +29,14 @@ Todas pueden mejorar el daño y bajar el cooldown.
 - Escudo (PAS) (conceptualmente es negación de daño)
 - Velocidad (PAS)
 - Daño (PAS)
+
+## Tipos de rooms
+
+- Boss room
+- Enemigos (1 wave)
+- Enemigos (n waves)
+- Chest room
+- Trap room
+
+
+
