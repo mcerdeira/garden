@@ -31,6 +31,8 @@ Todas pueden mejorar el daño y bajar el cooldown.
 
 - Dash (ACT) (permite esquivar algunos elementos que generan daño en el personaje
 - Escudo (PAS) (conceptualmente es negación de daño)
+- Vida
+- Experiencia ganada
 - Velocidad (PAS)
 - Daño (PAS)
 - Mapa detallado (PAS)
