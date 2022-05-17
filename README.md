@@ -22,7 +22,7 @@ A medida que el jugador realiza distintas runs, muere y repite, en los niveles d
 - Brazo disparador teleridigido, multiplicable hasta x2
 - Atractor de rayos, multiplicable hasta x4
 - Nube venenosa
-- TBD
+- and more!
 
 
 Todas las armas pueden ser mejoradas. Algunas pueden multiplicarse, es decir, existir más de una instancia de la misma arma. 
@@ -37,7 +37,7 @@ Todas pueden mejorar el daño y bajar el cooldown.
 - Velocidad (PAS)
 - Daño (PAS)
 - Mapa detallado (PAS)
-- TBD
+- and more!
 
 ## Tipos de rooms
 
