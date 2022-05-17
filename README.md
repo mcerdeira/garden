@@ -3,7 +3,7 @@
 ## Descripcion
 
 Sos un personaje que está en un jardín/laberinto y su misión es ir matando alimañas: desde plantas venenosas o carnivoras hasta bichos y otros enemigos inspirados en el maravilloso mundo de la jardinería.
-Al matarlos va recolectando XP que puede intercambiarse (mutasiones) por armamento y/o habilidades.
+Al matarlos va recolectando XP que puede intercambiarse (mutaciones) por armamento y/o habilidades.
 
 ## Mecánicas
 El juego es un rogue-like con vista top-down donde se recorre un mapa hasta limpiar todas las habitaciones (o al menos la ruta critica a la salida) para, luego de derrotar un boss, avanzar al siguiente nivel. 
