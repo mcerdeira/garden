@@ -13,7 +13,7 @@ A medida que el jugador realiza distintas runs, muere y repite, en los niveles d
 
 ## Mutaciones (armas)
 
-- Machete (base), multiplicable hasta x4
+- Machete (arma default), multiplicable hasta x4
 - Hoja giratoria
 - Orbital cortadora, multiplicable hasta x2
 - Orbital que dispara, multiplicable hasta x2
