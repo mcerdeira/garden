@@ -3,6 +3,9 @@ var guns_obj = preload("res://scripts/GunObj.gd")
 export var EQUIPED_GUNS = []
 var GUNS_DATA = null
 
+func initialize():
+	pass
+
 func _ready():
 	var file = File.new()
 	if file.file_exists("guns_data.json"):

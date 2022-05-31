@@ -5,32 +5,35 @@
             "description": "the default gun",
             "damage": 1,
             "cooldown": 3,
-            "type": "melee",
-            "sprite": "res://sprites/sword.png"
+            "type": "melee"
+        },
+        {
+            "name":"singlebullet",
+            "description": "single bullet",
+            "damage": 2,
+            "cooldown": 3,
+            "type": "range"
         },
         {
             "name":"ray",
             "description": "a ray of light",
             "damage": 3,
             "cooldown": 5,
-            "type": "melee",
-            "sprite": "res://sprites/ray.png"
+            "type": "melee"
         },
         {
-            "name":"shotgun",
-            "description": "a shotgun",
+            "name":"spread",
+            "description": "spreadshot, news?",
             "damage": 5,
             "cooldown": 6,
-            "type": "range",
-            "sprite": "res://sprites/shotgun.png"
-        }
+            "type": "range"
+        },
         {
             "name":"orb",
-            "description": "orb?",
+            "description": "orb",
             "damage": 0.1,
             "cooldown": 2,
-            "type": "orbital",
-            "sprite": "res://sprites/orb.png"
+            "type": "orbital"
         }
     ]
 }
