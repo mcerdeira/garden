@@ -1,0 +1,18 @@
+{
+    "guns":[
+        {
+            "name":"sword",
+            "description": "the default gun",
+            "damage": 1,
+            "cooldown": 3,
+            "sprite": "some"
+        },
+        {
+            "name":"ray",
+            "description": "a ray of light",
+            "damage": 1,
+            "cooldown": 5,
+            "sprite": "some"
+        }
+    ]
+}

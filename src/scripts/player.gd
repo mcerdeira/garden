@@ -2,8 +2,11 @@ extends KinematicBody2D
 export var _speed = 50
 
 func _ready():
-	pass # Replace with function body.
-
+	pass
+	
+func _process(delta):
+	for g in Global.EQUIPED_GUNS:
+		g.shoot(delta)
 
 func _physics_process(delta):
 	var moving = false
