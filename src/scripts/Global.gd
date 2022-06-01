@@ -17,3 +17,6 @@ func _ready():
 	var g = guns_obj.new()
 	g.initialize(GUNS_DATA.guns[0])
 	EQUIPED_GUNS.append(g)
+	g = guns_obj.new()
+	g.initialize(GUNS_DATA.guns[1])
+	EQUIPED_GUNS.append(g)

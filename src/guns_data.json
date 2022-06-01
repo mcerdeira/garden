@@ -4,7 +4,7 @@
             "name":"sword",
             "description": "the default gun",
             "damage": 1,
-            "cooldown": 3,
+            "cooldown": 1.5,
             "type": "melee"
         },
         {
@@ -12,6 +12,13 @@
             "description": "single bullet",
             "damage": 2,
             "cooldown": 3,
+            "type": "range"
+        },
+        {
+            "name":"singlebulletrandom",
+            "description": "single bullet, random direction",
+            "damage": 5,
+            "cooldown": 5,
             "type": "range"
         },
         {

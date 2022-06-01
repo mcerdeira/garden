@@ -1,10 +1,11 @@
-extends KinematicBody2D
+extends Area2D.
+var objettype = "gun"
 
 func _ready():
 	$sprite.playing = true
 	fix_face()
 
-func _process(delta):
+func _physics_process(delta):
 	fix_face()
 	
 func fix_face():
@@ -19,3 +20,8 @@ func fix_face():
 
 func _on_sprite_animation_finished():
 	queue_free()
+
+func _on_sword_area_entered(area):
+	if area.objettype == "enemy":
+		area.queue_free()
+		queue_free()

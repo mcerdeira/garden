@@ -1,15 +1,15 @@
-extends KinematicBody2D
-export var _speed = 50
+extends Area2D
+export var _speed = 55
 var face_dir = "R"
+var objettype = "player"
 
 func _ready():
 	pass
 	
-func _process(delta):
+func _physics_process(delta):
 	for g in Global.EQUIPED_GUNS:
 		g.shoot(delta, self)
-
-func _physics_process(delta):
+	
 	var moving = false
 	
 	if Input.is_action_pressed("down"):

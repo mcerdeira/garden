@@ -43,3 +43,10 @@ func doAction(player):
 		var w = singlebullet.instance()
 		player.get_parent().add_child(w)
 		w.set_position(player.position)
+		w.init_normal(player.face_dir)
+	if name == "singlebulletrandom":
+		var w = singlebullet.instance()
+		player.get_parent().add_child(w)
+		w.set_position(player.position)
+		w.init_random()
+		

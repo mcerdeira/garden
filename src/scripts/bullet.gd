@@ -1,17 +1,29 @@
-extends KinematicBody2D
-
+extends Area2D
 export var speed : = 100.0
-var velocity := Vector2()
-var motion := Vector2()
-
+var objettype = "gun"
 
 func _ready():
-	randomize()
-	rotation = randi() % 360
-	velocity = Vector2(speed,0).rotated(rotation)
-	print(velocity)
+	pass
 
+func init_random():
+	rotation_degrees = randi() % 360
+	$sprite.animation = "random"
+	
+func init_normal(face_dir):
+	$sprite.animation = "default"
+	if face_dir == "L":
+		rotation_degrees = 180
+	if face_dir == "R": 
+		rotation_degrees = 0
+	if face_dir == "U":
+		rotation_degrees = 270
+	if face_dir == "D":
+		rotation_degrees = 90
 
-func _process(delta):
-	rotation_degrees += 200 * delta
-	motion = move_and_slide(velocity)
+func _physics_process(delta):
+	position += transform.x * speed * delta
+
+func _on_bullet_area_entered(area):
+	if area.objettype == "enemy":
+		area.queue_free()
+		queue_free()
